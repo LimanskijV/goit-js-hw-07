@@ -28,7 +28,7 @@ const images = [
 const list = document.querySelector('.gallery')      
 
 const newImages = images
-  .map(images => `<li><img src="${images.url}" alt="${images.alt}"/></li>`)
+  .map(images => `<li><img src="${images.url}" alt="${images.alt}" width="360" height="300"/></li>`)
   .join();
 
 list.insertAdjacentHTML('beforeend', newImages)
