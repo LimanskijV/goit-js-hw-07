@@ -1,8 +1,8 @@
 const innerText = document.querySelector('#name-input')
 const outerText = document.querySelector("#name-output")
 
-outerText.addEventListener("input", () => {
-    outerText.value = outerText.value.trim();
+innerText.addEventListener("input", () => {
+    innerText.value = innerText.value.trim();
 }
 )
 innerText.addEventListener("input", (event)=> {
